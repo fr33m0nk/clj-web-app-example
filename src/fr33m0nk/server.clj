@@ -11,5 +11,5 @@
 
 (defn start-server [app port]
   (when (nil? @server)
-    (reset! server (s/run-server app {:port (int port)}))))
+    (reset! server (s/run-server app {:port (Integer/parseInt port)}))))
 

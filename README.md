@@ -21,16 +21,6 @@ Download from https://github.com/fr33m0nk/fr33m0nk.clj-web-app-example
 
 ### Run the project directly, via `:exec-fn`:
 
-    $ clojure -X:run-x
-    Stating HTTP server at port 8080
-
-### Run the project, overriding the name to be greeted:
-
-    $ clojure -X:run-x :port 8085
-    Stating HTTP server at port 8085
-
-### Run the project directly, via `:main-opts` (`-m fr33m0nk.clj-web-app-example`):
-
     $ clojure -M:run-m
     Stating HTTP server at port 8080
 

@@ -11,7 +11,7 @@
 (defn -main
   [& args]
   (let [port (or (first args) 8080)]
-    (println "Stating HTTP server at port " port)
+    (println "Stating HTTP server at port" port)
     (s/start-server app port)
     (.addShutdownHook
       (Runtime/getRuntime)
