@@ -19,7 +19,7 @@ A simple Clojure web application to serve as a scaffold.
 
     $ docker build -t clj-web-app . && docker run -p 8080:8080 -it --rm --name clj-web-app-example clj-web-app
 
-### Run the project directly, via `:exec-fn`:
+### Run the project directly:
 
     $ clojure -M:run-m
     Stating HTTP server at port 8080
