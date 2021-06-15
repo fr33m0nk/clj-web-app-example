@@ -6,7 +6,7 @@ A simple Clojure web application to serve as a scaffold.
 
 * `GET:/api/v1/ping`
   ```shell
-  curl --location --request GET 'http://localhsot:8080/api/v1/ping'`
+  curl --location --request GET 'http://localhsot:8080/api/v1/ping'
   ```
 
 ## Installation
