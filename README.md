@@ -11,7 +11,7 @@ A simple Clojure web application to serve as a scaffold.
 
 ## Installation
 
-Download from https://github.com/fr33m0nk/fr33m0nk.clj-web-app-example
+* Install Clojure CLI using instructions at Clojure's official website
 
 ## Usage
 
